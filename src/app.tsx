@@ -1,6 +1,6 @@
 export const App = () => {
   return (
-    <div className="prose lg:prose-xl px-6 py-6">
+    <div className="prose px-6 py-6 lg:prose-xl">
       <h1>Cooper Gadd</h1>
       <div>
         <h2>Socials</h2>
