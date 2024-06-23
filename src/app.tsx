@@ -1,95 +1,77 @@
 export const App = () => {
   return (
-    <article className="prose">
-      <header>
-        <h1>Cooper Gadd</h1>
+    <div className="prose lg:prose-xl px-6 py-6">
+      <h1>Cooper Gadd</h1>
+      <div>
+        <h2>Socials</h2>
         <p>
-          Cowlesville, New York | 585-813-2699 |{" "}
-          <a href="mailto:coopergadd@yahoo.com">coopergadd@yahoo.com</a>
+          <a href="https://github.com/cooper-gadd">GitHub: cooper-gadd</a>
         </p>
         <p>
-          <a href="http://www.ctgadd.com">www.ctgadd.com</a> |
-          <a href="http://www.linkedin.com/in/coopergadd">
-            www.linkedin.com/in/coopergadd
-          </a>{" "}
-          |<a href="http://www.github.com/cgadd21">www.github.com/cgadd21</a>
-        </p>
-      </header>
-      <section>
-        <h2>OBJECTIVE</h2>
-        <p>Seeking a career as a Software Engineer.</p>
-      </section>
-      <section>
-        <h2>EDUCATION</h2>
-        <p>
-          <strong>Rochester Institute of Technology</strong> Spring 2022 - Fall
-          2024 Bachelor of Science, Computing and Information Technologies GPA
-          3.9
+          <a href="https://www.linkedin.com/in/coopergadd/">
+            LinkedIn: Cooper Gadd
+          </a>
         </p>
         <p>
-          <strong>Monroe Community College</strong> Fall 2020 - Fall 2022
-          Associate of Science, Information Technology GPA 3.4
-        </p>
-      </section>
-      <section>
-        <h2>SKILLS</h2>
-        <p>
-          <strong>Programming Languages:</strong> C#, Go, Java, Python, Swift
+          <a href="mailto:coopergadd@yahoo.com">Email: coopergadd@yahoo.com</a>
         </p>
         <p>
-          <strong>Web Development:</strong> PHP, TypeScript, JavaScript, CSS,
-          HTML
+          <a href="https://www.ctgadd.com">Website: ctgadd.com</a>
         </p>
+      </div>
+      <div>
+        <h2>Objective</h2>
         <p>
-          <strong>Database Technologies:</strong> SQL, MySQL, PostgreSQL, Oracle
+          Seeking a software engineering position where I can leverage my
+          experience in full-stack development to create innovative solutions to
+          complex problems.
         </p>
+      </div>
+      <div>
+        <h2>Education</h2>
         <p>
-          <strong>Version Control:</strong> GitHub, GitLab, SourceTree
+          Rochester Institute of Technology, B.S. in Computing and Information
+          Technologies
         </p>
-        <p>
-          <strong>Frameworks:</strong> Angular, Blazor, Express, Flask, Lumen,
-          React, Spring Boot
-        </p>
-      </section>
-      <section>
-        <h2>RELEVANT EXPERIENCE</h2>
-        <h3>Attica Package Company Inc.</h3>
-        <p>
-          Attica, NY December 2022 – Present
-          <em>Software Engineer Freelance</em>
-        </p>
-        <ul>
-          <li>Created and hosted a company website.</li>
-          <li>
-            Developed a SQL database application using Microsoft Access to
-            streamline material tracking, replacing Excel sheets.
-          </li>
-          <li>
-            Automated report calculations and enabled data querying based on
-            parameters.
-          </li>
-        </ul>
-        <h3>Touchstone Technology, Inc.</h3>
-        <p>
-          Rochester, NY March 2023 – Present
-          <em>Software Engineer Internship</em>
-        </p>
-        <ul>
-          <li>
-            Created a Blazor WebAssembly web app for logging employee
-            assignments, generating reports, tracking inventory and yield,
-            printing labels, displaying schedules, and searching part details.
-          </li>
-          <li>
-            Implemented APIs for HTTPS requests to SQL database using Dapper.
-          </li>
-          <li>Integrated GitLab for version control.</li>
-          <li>
-            Enhanced sister company's WinForms app by fixing device activation
-            and upgrading to label printing from laser engraving.
-          </li>
-        </ul>
-      </section>
-    </article>
+        <p>GPA: 3.8</p>
+      </div>
+      <div>
+        <h2>Experience</h2>
+        <div>
+          <h3>Software Engineer</h3>
+          <h4>Attica Package Company Inc. · Freelance</h4>
+          <p>December 2022 – Present</p>
+          <p>Attica, New York, United States · Hybrid</p>
+          <p>
+            Developed and hosted a React web app, created a SQL database
+            application with Microsoft Access for material tracking.
+          </p>
+          <p>Web Development, Database Applications, Cloud Computing</p>
+        </div>
+        <div>
+          <h3>Software Engineer</h3>
+          <h4>Excellus BCBS · Internship</h4>
+          <p>June 2024 - August 2024</p>
+          <p>Rochester, New York, United States · Hybrid</p>
+          <p>
+            Developed a React app and trained a model to read and route a file.
+          </p>
+          <p>Web Development, Rest APIs, Cloud Computing</p>
+        </div>
+        <div>
+          <h3>Software Engineer</h3>
+          <h4>Touchstone Technology, Inc. · Internship</h4>
+          <p>March 2023 - May 2024</p>
+          <p>Rochester, New York, United States · On-site</p>
+          <p>
+            Developed a Blazor WebAssembly web app for employee assignments,
+            reports, and inventory tracking, with SQL database.
+          </p>
+          <p>
+            Web Development, Database Applications, Rest APIs, Cloud Computing
+          </p>
+        </div>
+      </div>
+    </div>
   );
 };
