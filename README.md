@@ -1,30 +1,64 @@
-# React + TypeScript + Vite
+# Pixelate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pixelate is a sleek, modern app that beautifully displays my resume.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Modern UI**: Utilizes Tailwind CSS for a clean, responsive design.
+- **Fast and Efficient**: Employs Vite for rapid development and SWR for efficient data fetching.
+- **Type-safe**: Written in TypeScript for enhanced maintainability and fewer bugs.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static types for robust code.
+- **Vite**: A build tool that provides a faster and leaner development experience.
+- **Tailwind CSS**: A utility-first CSS framework for custom designs.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/cgadd21/pixelate.git
+   cd synthar
+   ```
+
+2. **Install dependencies:**
+
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```sh
+   npm run dev
+   ```
+
+## Usage
+
+1. **Run the application:**
+
+   ```sh
+   npm run dev
+   ```
+
+2. **Build for production:**
+
+   ```sh
+   npm run build
+   ```
+
+3. **Preview the production build:**
+
+   ```sh
+   npm run preview
+   ```
