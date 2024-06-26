@@ -21,6 +21,7 @@ Pixelate is a sleek, modern app that beautifully displays my resume.
 - **TypeScript**: A superset of JavaScript that adds static types for robust code.
 - **Vite**: A build tool that provides a faster and leaner development experience.
 - **Tailwind CSS**: A utility-first CSS framework for custom designs.
+- **DaisyUI**: A plugin for Tailwind CSS that provides pre-designed components.
 
 ## Installation
 
